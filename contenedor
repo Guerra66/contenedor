@@ -1,0 +1,20 @@
+package ui;
+import java.util.Scanner;
+public class contenedor{
+double ancho;
+double alto;
+double largo;
+double volumenC;
+public void dimensiones(){
+Scanner sc = new Scanner(System.in);
+System.out.ptintln("Digite el ancho del contenedor");
+double ancho = sc.nextLine();
+System.out.ptintln("Digite el alto del contenedor");
+double alto = sc.nextLine();
+System.out.ptintln("Digite el largo del contenedor");
+double largo = sc.nextLine();
+}
+public volumenC(){
+volumenC = ancho*alto*largo;
+System.out.println("El volumen del contenedor es: ")+volumenC;
+}
