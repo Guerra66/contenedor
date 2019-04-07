@@ -1,20 +1,37 @@
-package ui;
+package c0ntenedor;
 import java.util.Scanner;
-public class contenedor{
-double ancho;
-double alto;
-double largo;
-double volumenC;
-public void dimensiones(){
-Scanner sc = new Scanner(System.in);
-System.out.ptintln("Digite el ancho del contenedor");
-double ancho = sc.nextLine();
-System.out.ptintln("Digite el alto del contenedor");
-double alto = sc.nextLine();
-System.out.ptintln("Digite el largo del contenedor");
-double largo = sc.nextLine();
-}
-public volumenC(){
-volumenC = ancho*alto*largo;
-System.out.println("El volumen del contenedor es: ")+volumenC;
+public class C0ntenedor {
+    double ancho;
+    double alto;
+    double largo;
+    double VolC1;
+    double VolC2;
+    double VolC3;
+    double VolPromedio;
+    double VolTotal;
+    public static void main(String[] args) {
+    Scanner teclado = new Scanner(System.in);
+    C0ntenedor contenedor1=new C0ntenedor();
+    System.out.println("Digite el ancho del primer contenedor");
+    contenedor1.ancho = teclado.nextDouble();
+    System.out.println("Digite el alto del primer contenedor");
+    contenedor1.alto = teclado.nextDouble();
+    System.out.println("Digite el largo del primer contenedor");
+    contenedor1.largo = teclado.nextDouble();
+    
+    C0ntenedor contenedor2=new C0ntenedor();
+    System.out.println("Digite el ancho del segundo contenedor");
+    contenedor2.ancho = teclado.nextDouble();
+    System.out.println("Digite el alto del segundo contenedor");
+    contenedor2.alto = teclado.nextDouble();
+    System.out.println("Digite el largo del segundo contenedor");
+    contenedor2.largo = teclado.nextDouble();
+    
+    C0ntenedor contenedor3=new C0ntenedor();
+    System.out.println("Digite el ancho del tercer contenedor");
+    contenedor3.ancho = teclado.nextDouble();
+    System.out.println("Digite el alto del tercer contenedor");
+    contenedor3.alto = teclado.nextDouble();
+    System.out.println("Digite el largo del tercer contenedor");
+    contenedor3.largo = teclado.nextDouble();}
 }
