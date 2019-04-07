@@ -38,7 +38,8 @@ public class C0ntenedor {
     contenedor3.largo = teclado.nextDouble();}
     VolC3=ancho*alto*largo;
     
-    
     VolTotal=VolC1+VolC2+VolC3;
+    System.out.println("El Volumen Total de los contenedores es: "+VolTotal);
     VolPromedio=VolTotal/3
+    System.out.println("El Volumen Promedio de los contenedores es: "+VolPromedio);
 }
