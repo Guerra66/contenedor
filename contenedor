@@ -18,6 +18,7 @@ public class C0ntenedor {
     contenedor1.alto = teclado.nextDouble();
     System.out.println("Digite el largo del primer contenedor");
     contenedor1.largo = teclado.nextDouble();
+    VolC1=ancho*alto*largo;
     
     C0ntenedor contenedor2=new C0ntenedor();
     System.out.println("Digite el ancho del segundo contenedor");
@@ -26,6 +27,7 @@ public class C0ntenedor {
     contenedor2.alto = teclado.nextDouble();
     System.out.println("Digite el largo del segundo contenedor");
     contenedor2.largo = teclado.nextDouble();
+    VolC2=ancho*alto*largo;
     
     C0ntenedor contenedor3=new C0ntenedor();
     System.out.println("Digite el ancho del tercer contenedor");
@@ -34,4 +36,9 @@ public class C0ntenedor {
     contenedor3.alto = teclado.nextDouble();
     System.out.println("Digite el largo del tercer contenedor");
     contenedor3.largo = teclado.nextDouble();}
+    VolC3=ancho*alto*largo;
+    
+    
+    VolTotal=VolC1+VolC2+VolC3;
+    VolPromedio=VolTotal/3
 }
